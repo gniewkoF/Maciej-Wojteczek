@@ -1,0 +1,22 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+	    int[] liczby_pierwsze = new int[10];
+
+
+	    for (int i = 0; 1<10;i++) {
+			liczby_pierwsze[i] = i + 1;
+
+			if(liczby_pierwsze[i]%2==0) {
+				liczby_pierwsze[i] = i + 0;
+				System.out.println("Kolejna komórka to:" + liczby_pierwsze[i]);
+			}
+			else {
+				liczby_pierwsze[i] = i + 1;
+				System.out.println("Kolejna komórka to:" + liczby_pierwsze[i]);
+			}
+		}
+    }
+}
